@@ -2,14 +2,14 @@
 //
 // 由 GitHub Actions 執行，負責：
 //   1. 從 Google Sheets 抓取委員會建議報告資料
-//   2. 寫入 server/assets/data/committeeReports.json
+//   2. 寫入 data/committeeReports.json
 //
 // 執行方式：
 //   node scripts/fetchCommitteeReports.mjs
 //
 // 所需環境變數（在 GitHub Actions Secrets 設定）：
 //   COMMITTEE_REPORTS_SHEET_ID  — Google 試算表的 Spreadsheet ID
-//   COMMITTEE_REPORTS_SHEET_GID — 分頁的 gid（選填，預設為 '0'）
+//   COMMITTEE_REPORTS_SHEET_GID — 分頁的 gid
 
 import fs   from 'node:fs';
 import path from 'node:path';
@@ -196,7 +196,7 @@ async function main() {
 
     // 確保輸出目錄存在
     const __dirname = path.dirname(fileURLToPath(import.meta.url));
-    const outputDir  = path.resolve(__dirname, '../server/assets/data');
+    const outputDir  = path.resolve(__dirname, '../data');
     const outputFile = path.join(outputDir, 'committeeReports.json');
 
     fs.mkdirSync(outputDir, { recursive: true });

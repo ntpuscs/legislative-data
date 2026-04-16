@@ -12,7 +12,7 @@ if (!SHEET_ID || !GID) {
 }
 
 const CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${GID}`;
-const OUTPUT_DIR = path.resolve(process.cwd(), 'server/assets/data');
+const OUTPUT_DIR = path.resolve(process.cwd(), 'data');
 
 /**
  * 解析 billNumber 字串，提取屆次（term）與議案流水號（serialNumber）。
