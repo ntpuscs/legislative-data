@@ -74,6 +74,8 @@ jobs:
         env:
           EVENT_NAME: ${{ github.event_name }}
           INPUT_REASON: ${{ github.event.inputs.reason }}
+          TRIGGERED_BY: ${{ github.event.client_payload.triggered_by }}
+          TRIGGERED_BY_SITE: ${{ github.event.client_payload.triggered_by_site }}
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "github-actions-bot@users.noreply.github.com"
@@ -93,10 +95,16 @@ jobs:
               
               if [ "$EVENT_NAME" = "schedule" ]; then
                 COMMIT_BODY="觸發原因：定期自動執行"
+              elif [ "$EVENT_NAME" = "repository_dispatch" ]; then
+                if [ -n "$TRIGGERED_BY" ]; then
+                  COMMIT_BODY="由「${TRIGGERED_BY}」透過「${TRIGGERED_BY_SITE}」的 API 觸發"
+                else
+                  COMMIT_BODY="透過 API 觸發"
+                fi
               elif [ -n "$INPUT_REASON" ]; then
-                COMMIT_BODY="觸發原因：使用者手動更新，並註明事由為「${INPUT_REASON}」。"
+                COMMIT_BODY="使用者手動更新，並註明事由為「${INPUT_REASON}」。"
               else
-                COMMIT_BODY="觸發原因：使用者手動更新"
+                COMMIT_BODY="使用者手動更新，未註明事由。"
               fi
               
               git commit -m "data(bylaws): 從 Google Drive 同步法規" -m "$COMMIT_BODY"
