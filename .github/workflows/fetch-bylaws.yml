@@ -32,25 +32,24 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: 3. 設定 Node.js 環境
+      - name: 3. 安裝 pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: 4. 設定 Node.js 環境
         uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: 'pnpm'
 
-      - name: 4. 安裝 Python 相依套件
+      - name: 5. 安裝 Python 相依套件
         run: pip install gdown
 
-      - name: 5-1. 安裝 pnpm
-        uses: pnpm/action-setup@v3
-        with:
-          version: 10
-          run_install: false
-
-      - name: 5-2. 安裝 Node.js 相依套件
+      - name: 6. 安裝 Node.js 相依套件
         run: pnpm install
 
-      - name: 6. 從 Google Drive 同步法規檔案
+      - name: 7. 從 Google Drive 同步法規檔案
         run: |
           echo "Creating temporary download directory..."
           mkdir temp_drive_download
@@ -71,7 +70,7 @@ jobs:
           echo "Cleaning up temporary directory..."
           rm -rf temp_drive_download
 
-      - name: 7. 更新法規檔案、Commit, Push
+      - name: 8. 更新法規檔案、Commit, Push
         env:
           EVENT_NAME: ${{ github.event_name }}
           INPUT_REASON: ${{ github.event.inputs.reason }}
