@@ -50,7 +50,9 @@ jobs:
           
           echo "Moving and flattening all .txt files..."
           # 將臨時資料夾中所有檔案移動
-          find ./temp_drive_download -name "*.txt" -exec mv {} ./data/bylaws/ \;
+          find ./temp_drive_download -name "*.txt" | while read f; do
+            mv "$f" "./data/bylaws/$(basename "${f%.txt}.md")"
+          done
           
           echo "Cleaning up temporary directory..."
           rm -rf temp_drive_download
