@@ -35,14 +35,20 @@ jobs:
       - name: 3. 設定 Node.js 環境
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
-          cache: 'npm'
+          node-version: '24'
+          cache: 'pnpm'
 
       - name: 4. 安裝 Python 相依套件
         run: pip install gdown
 
-      - name: 5. 安裝 Node.js 相依套件
-        run: npm ci
+      - name: 5-1. 安裝 pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 10
+          run_install: false
+
+      - name: 5-2. 安裝 Node.js 相依套件
+        run: pnpm install
 
       - name: 6. 從 Google Drive 同步法規檔案
         run: |
