@@ -34,8 +34,6 @@ jobs:
 
       - name: 3. 安裝 pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 10
 
       - name: 4. 設定 Node.js 環境
         uses: actions/setup-node@v4
