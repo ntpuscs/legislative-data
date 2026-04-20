@@ -3,10 +3,18 @@ name: 法規資料庫同步
 on:
   # 允許在 GitHub 上手動觸發
   workflow_dispatch:
+    inputs:
+      reason:
+        description: '觸發原因（選填，僅供紀錄）'
+        required: false
+        default: ''
   
   schedule:
-    # 設定排程：每天 UTC 20:30 (相當於 UTC+8 臺北時間凌晨 04:30) 執行
-    - cron: '30 20 * * *'
+    # 設定排程：每天 UTC 18:30 (相當於 UTC+8 臺北時間凌晨 02:30) 執行
+    - cron: '30 18 * * *'
+
+  repository_dispatch:     # 允許透過 GitHub API 從網站後台觸發
+    types: [refresh-bylaws]
 
 jobs:
   sync-and-update:
@@ -58,6 +66,9 @@ jobs:
           rm -rf temp_drive_download
 
       - name: 7. 更新法規檔案、Commit, Push
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_REASON: ${{ github.event.inputs.reason }}
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "github-actions-bot@users.noreply.github.com"
@@ -74,17 +85,22 @@ jobs:
             
             if ! git diff --staged --quiet; then
               echo "發現 Staged 變更，準備 commit..."
-              git commit -m "sync(regulation): 自動同步法規"
+              
+              if [ "$EVENT_NAME" = "schedule" ]; then
+                COMMIT_BODY="觸發原因：定期自動執行"
+              elif [ -n "$INPUT_REASON" ]; then
+                COMMIT_BODY="觸發原因：使用者手動更新，並註明事由為「${INPUT_REASON}」。"
+              else
+                COMMIT_BODY="觸發原因：使用者手動更新"
+              fi
+              
+              git commit -m "data(bylaws): 從 Google Drive 同步法規" -m "$COMMIT_BODY"
               
               git pull --rebase
               git push
             else
               echo "法規檔案內容雖有變動，但清單（僅有編號與簡稱）無需更新。"
             fi
-            
-          else
-            echo "Google Drive 上沒有異動。"
-          fi
             
           else
             echo "Google Drive 上沒有異動。"

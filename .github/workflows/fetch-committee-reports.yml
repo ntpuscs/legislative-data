@@ -1,7 +1,7 @@
 # .github/workflows/fetch-committee-reports.yml
 #
 # 觸發時機：
-#   1. UTC 每週日 21:30（台灣時間週一 05:30）自動執行
+#   1. 每週日自動執行
 #   2. 在 GitHub Actions 頁面手動按下 "Run workflow" 按鈕
 #   3. 網站後台透過 GitHub API 觸發（repository_dispatch，event type: refresh-committee-reports）
 #   【中長期：已先預留 API 觸發，惟前端頁面尚未撰寫】
@@ -10,14 +10,14 @@ name: 同步委員會報告資料
 
 on:
   schedule:
-    - cron: '30 21 * * SUN'   # 每週日 UTC 21:30 (對應台灣時間週一 05:30)
+    - cron: '30 19 * * SUN'   # 每週日 UTC 19:30 (對應台灣時間週一 03:30)
 
   workflow_dispatch:       # 允許在 GitHub web UI 手動觸發
     inputs:
       reason:
         description: '觸發原因（選填，僅供紀錄）'
         required: false
-        default: '手動更新'
+        default: ''
 
   repository_dispatch:     # 允許透過 GitHub API 從網站後台觸發
     types: [refresh-committee-reports]
@@ -66,13 +66,28 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Determine trigger reason
+        id: reason
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "msg=每週自動執行" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            echo "msg=透過 API 觸發" >> $GITHUB_OUTPUT
+          elif [ -n "${{ github.event.inputs.reason }}" ]; then
+            echo "msg=使用者從介面手動更新，事由：「${{ github.event.inputs.reason }}」" >> $GITHUB_OUTPUT
+          else
+            echo "msg=使用者從介面手動更新" >> $GITHUB_OUTPUT
+          fi
+
       - name: Commit and push if changed
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/committeeReports.json
-          git commit -m "chore(data): 自動同步委員會報告資料"
+          git commit -m "data(committee-reports): 從 Google Sheets 同步委員會建議事項資料
+
+          觸發原因：${{ steps.reason.outputs.msg }}"
           git push
 
       - name: No changes detected

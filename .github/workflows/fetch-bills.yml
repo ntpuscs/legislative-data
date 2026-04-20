@@ -1,7 +1,7 @@
 # .github/workflows/fetch-bills.yml
 #
 # 觸發時機：
-#   1. UTC 每日 21:00（台灣時間週一 05:00）自動執行
+#   1. 每日自動執行
 #   2. 在 GitHub Actions 頁面手動按下 "Run workflow" 按鈕
 #   3. 網站後台透過 GitHub API 觸發（repository_dispatch，event type: refresh-bills）
 #   【中長期：已先預留 API 觸發，惟前端頁面尚未撰寫】
@@ -10,14 +10,14 @@ name: 同步議案資料
 
 on:
   schedule:
-    # 每天 21:00 (UTC) 執行，對應台灣時間早上 05:00
-    - cron: '0 21 * * *'
+    # 每天 18:00 (UTC) 執行，對應台灣時間早上 02:00
+    - cron: '0 18 * * *'
   workflow_dispatch: # 允許從介面手動觸發
     inputs:
       reason:
         description: '觸發原因（選填，僅供紀錄）'
         required: false
-        default: '手動更新'
+        default: ''
 
   repository_dispatch:     # 允許透過 GitHub API 從網站後台觸發
     types: [refresh-bills]
@@ -55,6 +55,9 @@ jobs:
       - name: Check for changes and Commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore(data): 自動同步議案資料"
+          commit_message: |
+            data(bills): 從 Google Sheets 同步議案資料
+
+            觸發原因：${{ github.event_name == 'schedule' && '每日自動執行' || github.event_name == 'repository_dispatch' && '透過 API 觸發' || github.event.inputs.reason != '' && format('使用者從介面手動更新，事由：「{0}」', github.event.inputs.reason) || '使用者從介面手動更新' }}
           commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
           file_pattern: "data/*.json"
