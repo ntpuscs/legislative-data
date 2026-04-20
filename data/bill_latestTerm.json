@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-04-16T03:56:10.694Z",
+  "cachedAt": "2026-04-20T06:42:27.245Z",
   "data": [
     {
       "rowIndex": 275,
@@ -1398,7 +1398,7 @@
         "https://drive.google.com/open?id=1HA-qHfJNTRSycIATChF7McGjKeE7_ddV",
         "https://drive.google.com/open?id=1dXwmVEPFZz7GAU3DYnjHV57fGXUmrFTz"
       ],
-      "scheduledSession": "26屆第6次常會"
+      "scheduledSession": "26屆第6次常會（付委）；法規委員會未審查；26屆第7次常會"
     },
     {
       "rowIndex": 350,
@@ -1595,9 +1595,9 @@
     },
     {
       "rowIndex": 361,
-      "billNumber": "",
+      "billNumber": "26屆北大峽議字第87號",
       "term": 26,
-      "serialNumber": null,
+      "serialNumber": 87,
       "submittedAt": "2026/4/9 上午 12:45:06",
       "proposingEntity": "本會議員",
       "proposerName": "傅冠紘",
@@ -1607,17 +1607,17 @@
       "description": "一、為使本會學生議員主體性提升，完善學生議員作為各院民意代表之身分，使學生議員擁有足夠資源推動議題，爰提出本草案。\n二、本草案旨在促使學生議會發揮「競爭性議題中心」之身分，並為此提供制度性支持。（詳細論述請看附件三）\n二、條文對照表如附件（附件一PDF、附件二DOCX）。",
       "proposedAction": "大會通過後，咨請會長公布",
       "attachments": [
-        "https://drive.google.com/open?id=14L12wcZAyoywxi6ydZ95oyHjD7RM8gov",
-        "https://drive.google.com/open?id=1z7UKLtS1rIJQTIKvZ_c0C2vPX353nfbE",
+        "https://drive.google.com/file/d/1i1GBrkJPTcMkRJGKO7XcOgJzdzqh2AMI/view?usp=sharing",
+        "https://docs.google.com/document/d/1f3QuJ9LFYzbrlRCpZJYL09gsDZf9BBUz/edit?usp=sharing&ouid=111956381691113417844&rtpof=true&sd=true",
         "https://drive.google.com/open?id=1ODmzsGGRvx9XwN31-xDVUTNmcpAI-oel"
       ],
-      "scheduledSession": ""
+      "scheduledSession": "26屆第7次常會"
     },
     {
       "rowIndex": 362,
-      "billNumber": "",
+      "billNumber": "26屆北大峽議字第88號",
       "term": 26,
-      "serialNumber": null,
+      "serialNumber": 88,
       "submittedAt": "2026/4/15 下午 3:45:39",
       "proposingEntity": "學生法院 書記處",
       "proposerName": "周俊良",
@@ -1629,13 +1629,13 @@
       "attachments": [
         "https://drive.google.com/open?id=19X6mvE1zs8hUpk5qsUGb87GQOSUrS_p4"
       ],
-      "scheduledSession": ""
+      "scheduledSession": "26屆第7次常會"
     },
     {
       "rowIndex": 363,
-      "billNumber": "",
+      "billNumber": "26屆北大峽議字第89號",
       "term": 26,
-      "serialNumber": null,
+      "serialNumber": 89,
       "submittedAt": "2026/4/16 上午 11:51:18",
       "proposingEntity": "本會 秘書處",
       "proposerName": "傅冠紘",
@@ -1649,13 +1649,13 @@
         "https://drive.google.com/open?id=1D8tpBEeMt-W9sYp725TnjECbD2C9oQic",
         "https://drive.google.com/open?id=1bCpgkALF7GmAqVAonOog-7g4_f1KK0U9"
       ],
-      "scheduledSession": ""
+      "scheduledSession": "26屆第7次常會"
     },
     {
       "rowIndex": 364,
-      "billNumber": "",
+      "billNumber": "26屆北大峽議字第90號",
       "term": 26,
-      "serialNumber": null,
+      "serialNumber": 90,
       "submittedAt": "2026/4/16 上午 11:54:55",
       "proposingEntity": "本會 秘書處",
       "proposerName": "傅冠紘",
@@ -1668,7 +1668,7 @@
         "https://drive.google.com/open?id=1bbP3Se_tSeKgjNOfCkPr0bLU4s9T3Am1",
         "https://drive.google.com/open?id=1Zc0fBDSGQ_nrctNzwXCcGxW5SNm7Bvgr"
       ],
-      "scheduledSession": ""
+      "scheduledSession": "26屆第7次常會"
     }
   ]
 }
