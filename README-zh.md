@@ -4,7 +4,7 @@
 
 這個儲存庫是[國立臺北大學學生議會（三峽校區）](https://github.com/ntpuscs)的立法資料與自動化工作流中心。
 
-本專案將議事資料（如議案、委員會報告，未來將加入法規）與[前端網頁應用程式](https://github.com/ntpuscs/open-parliament-ntpuscs)完全解耦，作為獨立的資料供應來源。透過自動化腳本定期更新結構化資料（多為 JSON），確保官方網站及其他應用程式能取得最新且穩定之議事紀錄。
+本專案將議事資料（如議案、委員會報告、法規）與[前端網頁應用程式](https://github.com/ntpuscs/open-parliament-ntpuscs)完全解耦，作為獨立的資料供應來源。透過自動化腳本定期更新結構化資料（多為 JSON），確保官方網站及其他應用程式能取得最新且穩定之議事紀錄。
 
 ## 儲存庫架構
 
@@ -19,10 +19,12 @@
     * `bill_latestTerm.json`：最新屆次之議案資料。
     * `bill_pastTerms.json`：歷屆之議案資料歸檔。
     * `committeeReports.json`：各委員會政策建議報告與學生會回覆。
+    * `bylaw-list.json`：自治法規清單。
+    * `bylaws/**.md`：自治法規文字檔。
 
 ## 自動化工作流機制
 
-本專案利用 GitHub Actions 進行資料的自動化維護。排程任務會定期執行 `scripts/` 目錄下的程式，自動獲取並處理最新議事內容。
+本專案利用 GitHub Actions 進行資料的自動化維護。排程任務會定期執行 `scripts/` 目錄下的程式，自動從 Google Workplaces 獲取並處理最新議事內容。
 
 當腳本比對發現資料有實質更新時，GitHub Actions 會自動將變更寫入 `data/` 目錄中的 JSON 檔案，並自動產生 Commit 推送至本儲存庫，確保資料庫狀態常保最新，減少人工介入維護之成本。
 

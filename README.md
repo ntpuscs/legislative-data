@@ -4,7 +4,7 @@
 
 This repository serves as the legislative data and automated workflow hub for the [National Taipei University Student Congress (Sanxia)](https://github.com/ntpuscs).
 
-The project fully decouples parliamentary records (such as bills, committee reports --- and regulations to be added in the future) from the [frontend web application](https://github.com/ntpuscs/open-parliament-ntpuscs), functioning as an independent data source. Automated scripts periodically update structured data (primarily JSON), ensuring that the official website and other applications can always retrieve the latest and stable parliamentary records.
+The project fully decouples parliamentary records (such as bills, committee reports, bylaws) from the [frontend web application](https://github.com/ntpuscs/open-parliament-ntpuscs), functioning as an independent data source. Automated scripts periodically update structured data (primarily JSON), ensuring that the official website and other applications can always retrieve the latest and stable parliamentary records.
 
 ## Repository Structure
 
@@ -19,10 +19,12 @@ A flat structure, organized into 3 main parts --- automated workflows, execution
   * `bill_latestTerm.json`: Bill data for the most recent parliamentary term.
   * `bill_pastTerms.json`: Archived bill data from previous terms.
   * `committeeReports.json`: Policy recommendation reports from each committee + Student Union responses.
+  * `bylaw-list.json`: List of self-governmence bylaws.
+  * `bylaws/**.md`: Pure-text files of self-governmence bylaws.
 
 ## Automated Workflow Mechanism
 
-This project leverages GitHub Actions for automated data maintenance. Scheduled tasks periodically execute scripts in the `scripts/` directory to automatically fetch and process the latest parliamentary content.
+This project leverages GitHub Actions for automated data maintenance. Scheduled tasks periodically execute scripts in the `scripts/` directory to automatically fetch and process the latest parliamentary content from Google Workplaces.
 
 When a script detects substantive changes upon comparison, GitHub Actions automatically writes the updates to the JSON files in the `data/` directory and generates a commit pushed to this repository, keeping the database consistently up to date and reducing the need for manual maintenance.
 
