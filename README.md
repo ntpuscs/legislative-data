@@ -30,7 +30,14 @@ When a script detects substantive changes upon comparison, GitHub Actions automa
 
 ## System Integration and Data Access
 
-This project does not include any frontend rendering logic. The main project (such as the official Congress website frontend) or other authorized applications shall fetch JSON files from the `data/` directory directly via GitHub's native Raw URLs.
+This project does not include any frontend rendering logic. The main project (such as the official Congress website frontend) or other authorized applications shall fetch JSON files from the `data/` directory via jsDelivr CDN, which mirrors this repository's `main` branch and provides stable, globally distributed access.
+
+**Recommended base URL:**
+```
+https://cdn.jsdelivr.net/gh/ntpusu/legislative-data@main/data/{filename}
+```
+
+Since this repository is updated daily, the CDN cache (up to 12 hours) is automatically purged after each data update via GitHub Actions. Direct use of GitHub Raw URLs is discouraged for production environments.
 
 ## Maintainers
 

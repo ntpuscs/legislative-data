@@ -30,10 +30,15 @@
 
 ## 系統整合與資料獲取
 
-本專案本身不包含前端渲染邏輯。主專案（如議會官方網站前端）或其他授權之應用程式，應直接透過 GitHub 原生提供的 Raw URL 獲取本儲存庫 `data/` 目錄下之 JSON 檔案。
+本專案本身不包含前端渲染邏輯。主專案（如議會官方網站前端）或其他授權之應用程式，應透過 **jsDelivr CDN** 獲取本儲存庫 `data/` 目錄下之 JSON 檔案。jsDelivr 會自動鏡像本儲存庫之 `main` 分支，並提供穩定的全球節點加速。
+
+**建議使用之 CDN 基礎 URL：**
+```
+https://cdn.jsdelivr.net/gh/ntpusu/legislative-data@main/data/{filename}
+```
 
 **實作建議（開發者請注意）：**
-為避免過度消耗 GitHub 之頻寬並防止觸發請求限制（Rate Limit），主專案在串接此處之 Raw Data 時，請務必於伺服器端（如 Nuxt Server API）實作快取（Cache）機制，避免由使用者終端直接向本儲存庫發起高頻請求。
+由於本儲存庫每日更新，每次資料更新後將透過 GitHub Actions 自動呼叫 jsDelivr 清除快取（Cache Purge），確保資料即時性。爰不建議正式環境中直接使用 GitHub 原生 Raw URL，以免過度消耗頻寬，觸發可能的請求限制。若主專案仍有進一步的快取需求，似可考慮於伺服器端（如 Nuxt Server API）額外實作應用層快取。
 
 ## 維護單位
 
