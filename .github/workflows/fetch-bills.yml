@@ -4,7 +4,6 @@
 #   1. 每日自動執行
 #   2. 在 GitHub Actions 頁面手動按下 "Run workflow" 按鈕
 #   3. 網站後台透過 GitHub API 觸發（repository_dispatch，event type: refresh-bills）
-#   【中長期：已先預留 API 觸發，惟前端頁面尚未撰寫】
 
 name: 同步議案資料
 
