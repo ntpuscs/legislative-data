@@ -89,6 +89,9 @@ jobs:
             git add data/bylaw-list.json
             
             if ! git diff --staged --quiet; then
+              # 在 Commit 前取得所有變動的法規 md 檔案路徑
+              CHANGED_BYLAWS=$(git diff --name-only --staged data/bylaws/)
+              
               echo "發現 Staged 變更，準備 commit..."
               
               if [ "$EVENT_NAME" = "schedule" ]; then
@@ -109,6 +112,15 @@ jobs:
               
               git pull --rebase
               git push
+              
+              echo "清除 jsDelivr 快取：bylaw-list.json"
+              curl https://purge.jsdelivr.net/gh/ntpusu/legislative-data@main/data/bylaw-list.json
+              
+              echo "清除個別法規檔案快取..."
+              for file in $CHANGED_BYLAWS; do
+                echo "Purging: $file"
+                curl "https://purge.jsdelivr.net/gh/ntpusu/legislative-data@main/$file"
+              done
             else
               echo "法規檔案內容雖有變動，但清單（僅有編號與簡稱）無需更新。"
             fi

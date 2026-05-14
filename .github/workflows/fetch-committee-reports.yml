@@ -89,6 +89,11 @@ jobs:
           觸發原因：${{ steps.reason.outputs.msg }}"
           git push
 
+      - name: 清除 jsDelivr 快取
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          curl https://purge.jsdelivr.net/gh/ntpusu/legislative-data@main/data/committeeReports.json
+
       - name: No changes detected
         if: steps.diff.outputs.changed == 'false'
         run: echo "試算表資料（排除 cachedAt 後）與現有檔案相同，不予 commit。"

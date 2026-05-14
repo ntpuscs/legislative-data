@@ -49,6 +49,7 @@ jobs:
         run: node scripts/fetchBills.mjs
 
       - name: Check for changes and Commit
+        id: auto-commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: |
@@ -57,3 +58,9 @@ jobs:
             觸發原因：${{ github.event_name == 'schedule' && '每日自動執行' || github.event_name == 'repository_dispatch' && '透過 API 觸發' || github.event.inputs.reason != '' && format('使用者從介面手動更新，事由：「{0}」', github.event.inputs.reason) || '使用者從介面手動更新' }}
           commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
           file_pattern: "data/*.json"
+
+      - name: 清除 jsDelivr 快取
+        if: steps.auto-commit.outputs.changes_detected == 'true'
+        run: |
+          curl https://purge.jsdelivr.net/gh/ntpusu/legislative-data@main/data/bill_latestTerm.json
+          curl https://purge.jsdelivr.net/gh/ntpusu/legislative-data@main/data/bill_pastTerms.json
