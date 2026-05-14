@@ -2,9 +2,9 @@
 
 [English](README.md) | [繁體中文](README-zh.md)
 
-This repository serves as the legislative data and automated workflow hub for the [National Taipei University Student Congress (Sanxia)](https://github.com/ntpuscs).
+This repository serves as the legislative data and automated workflow hub for the National Taipei University Student Congress (Sanxia).
 
-The project fully decouples parliamentary records (such as bills, committee reports, bylaws) from the [frontend web application](https://github.com/ntpuscs/open-parliament-ntpuscs), functioning as an independent data source. Automated scripts periodically update structured data (primarily JSON), ensuring that the official website and other applications can always retrieve the latest and stable parliamentary records.
+The project fully decouples parliamentary records (such as bills, committee reports, bylaws) from the [frontend web application](https://github.com/ntpusu/open-parliament), functioning as an independent data source. Automated scripts periodically update structured data (primarily JSON), ensuring that the official website and other applications can always retrieve the latest and stable parliamentary records.
 
 ## Repository Structure
 
