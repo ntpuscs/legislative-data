@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-05-21T19:49:20.021Z",
+  "cachedAt": "2026-05-22T19:40:10.950Z",
   "data": [
     {
       "rowIndex": 275,
@@ -1688,6 +1688,24 @@
         "https://cloud.tipo.gov.tw/S282/S282WV1/#/tmark-detailed-report?docid=dYJUK%2BGmAc8UpP19to6MpphpCduZ0LSp%2BJzd"
       ],
       "scheduledSession": "26屆第7次常會"
+    },
+    {
+      "rowIndex": 366,
+      "billNumber": "26屆北大峽議字第92號",
+      "term": 26,
+      "serialNumber": 92,
+      "submittedAt": "2026/5/22 下午 11:31:08",
+      "proposingEntity": "本會議長",
+      "proposerName": "傅冠紘",
+      "contactName": "傅冠紘",
+      "billType": "一般提案",
+      "subject": "擬變更本會會徽，是否有當？敬請公決。",
+      "description": "鑑於學生自治會整體搬遷至圖書館B1一案，業已大抵確認，學生議會議場辦公室都將一起搬遷，本會會徽已使用四年，先前向智財局申請變更商標代表人也受阻。時值新舊交接之際，爰提議變更會徽，期望開展新氣象。",
+      "proposedAction": "敬請大會審議。",
+      "attachments": [
+        "https://drive.google.com/open?id=10ZTVDUAbElgbqDOGRs6-QFwaaykxhCwP"
+      ],
+      "scheduledSession": ""
     }
   ]
 }
