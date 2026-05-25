@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-05-22T19:40:10.950Z",
+  "cachedAt": "2026-05-25T11:46:11.710Z",
   "data": [
     {
       "rowIndex": 275,
@@ -1604,12 +1604,13 @@
       "contactName": "傅冠紘",
       "billType": "法律案",
       "subject": "本會議員傅冠紘擬具「國立臺北大學學生自治會學生議員計畫執行款設置法草案」是否有當？請公決案。",
-      "description": "一、為使本會學生議員主體性提升，完善學生議員作為各院民意代表之身分，使學生議員擁有足夠資源推動議題，爰提出本草案。\n二、本草案旨在促使學生議會發揮「競爭性議題中心」之身分，並為此提供制度性支持。（詳細論述請看附件三）\n二、條文對照表如附件（附件一PDF、附件二DOCX）。",
+      "description": "一、為使本會學生議員主體性提升，完善學生議員作為各院民意代表之身分，使學生議員擁有足夠資源推動議題，爰提出本草案。\n二、本草案旨在促使學生議會發揮「競爭性議題中心」之身分，並為此提供制度性支持。（詳細論述請看附件三）\n三、條文對照表如附件（附件一PDF、附件二DOCX）。\n四、秘書處2026/05/25編註：2026/05/22委員會聯席審查通過版本如附件四 PDF.",
       "proposedAction": "大會通過後，咨請會長公布",
       "attachments": [
         "https://drive.google.com/file/d/1i1GBrkJPTcMkRJGKO7XcOgJzdzqh2AMI/view?usp=sharing",
         "https://docs.google.com/document/d/1f3QuJ9LFYzbrlRCpZJYL09gsDZf9BBUz/edit?usp=sharing&ouid=111956381691113417844&rtpof=true&sd=true",
-        "https://drive.google.com/open?id=1ODmzsGGRvx9XwN31-xDVUTNmcpAI-oel"
+        "https://drive.google.com/open?id=1ODmzsGGRvx9XwN31-xDVUTNmcpAI-oel",
+        "https://drive.google.com/file/d/1weNyHp6vnLwCxaljnDPCDRfVo6Aum6xC/view?usp=sharing"
       ],
       "scheduledSession": "26屆第7次常會【付委】；26屆第1次法制、財務聯席會議【審查】；26屆第8次常會【二讀】"
     },
@@ -1704,6 +1705,24 @@
       "proposedAction": "敬請大會審議。",
       "attachments": [
         "https://drive.google.com/open?id=10ZTVDUAbElgbqDOGRs6-QFwaaykxhCwP"
+      ],
+      "scheduledSession": ""
+    },
+    {
+      "rowIndex": 367,
+      "billNumber": "26屆北大峽議字第93號",
+      "term": 26,
+      "serialNumber": 93,
+      "submittedAt": "2026/5/25 下午 2:48:34",
+      "proposingEntity": "三峽校區學生會 會長副會長",
+      "proposerName": "陳昱仁",
+      "contactName": "彭冠維",
+      "billType": "備查案",
+      "subject": "有鑒於本會學生權益部彭部長冠維近日請辭，檢附辭呈一份，敬請貴會備查。",
+      "description": "一、依三峽校區學生會組織法第六條辦理。\n二、辭呈如附件。",
+      "proposedAction": "敬請貴會依職權備查。",
+      "attachments": [
+        "https://drive.google.com/open?id=1zeZzkGjNqZSxXx-xDp6qNzH--0X8ILjE"
       ],
       "scheduledSession": ""
     }
