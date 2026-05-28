@@ -21,6 +21,8 @@
     * `committeeReports.json`：各委員會政策建議報告與學生會回覆。
     * `bylaw-list.json`：自治法規清單。
     * `bylaws/**.md`：自治法規文字檔。
+    *  `representatives.json`：各會議學生代表名冊、席次分配、代表名單。
+
 
 ## 自動化工作流機制
 
