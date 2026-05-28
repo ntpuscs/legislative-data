@@ -1,11 +1,14 @@
 # .github/workflows/fetch-committee-reports.yml
 #
 # 觸發時機：
-#   1. 每週日自動執行
+#   1. 自動執行：每週一凌晨三點半
 #   2. 在 GitHub Actions 頁面手動按下 "Run workflow" 按鈕
 #   3. 網站後台透過 GitHub API 觸發（repository_dispatch，event type: refresh-committee-reports）
 
 name: 同步委員會報告資料
+
+permissions:
+  contents: write
 
 on:
   schedule:

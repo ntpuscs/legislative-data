@@ -1,11 +1,14 @@
 # .github/workflows/fetch-bills.yml
 #
 # 觸發時機：
-#   1. 每日自動執行
+#   1. 自動執行：每天早上凌晨二時
 #   2. 在 GitHub Actions 頁面手動按下 "Run workflow" 按鈕
 #   3. 網站後台透過 GitHub API 觸發（repository_dispatch，event type: refresh-bills）
 
 name: 同步議案資料
+
+permissions:
+  contents: write
 
 on:
   schedule:
