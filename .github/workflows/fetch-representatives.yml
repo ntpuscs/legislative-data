@@ -1,0 +1,60 @@
+# .github/workflows/fetch-representatives.yml
+#
+# 觸發時機：
+#   1. 自動執行：每日早上六點
+#   2. 在 GitHub Actions 頁面手動按下 "Run workflow" 按鈕
+#   3. 透過 GitHub API 觸發：搭配 legislative-hub 後台使用
+
+name: 同步學生代表名冊
+
+permissions:
+  contents: write
+
+on:
+  # 自動執行：每天 UTC 22:00 (UTC+8 06:00)
+  schedule:
+    - cron: '0 22 * * *'
+  # 手動觸發 1：GitHub Web UI 
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: '觸發原因（選填，僅供紀錄）'
+        required: false
+        default: ''
+  # 手動觸發 2：GitHub API
+  repository_dispatch:     
+    types: [refresh-representatives]
+
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 檢出儲存庫
+        uses: actions/checkout@v4
+        
+      - name: 設定 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: 安裝依賴套件
+        run: npm install papaparse
+        
+      - name: 讀取並處理試算表資料
+        run: node scripts/fetchRepresentatives.js
+          
+      - name: 檢查是否有變更
+        id: check_changes
+        run: |
+          git diff --quiet data/representatives.json || echo "changed=true" >> $GITHUB_OUTPUT
+          
+      - name: 提交並推送變更
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/representatives.json
+          git commit -m "data(reps): 從 Google Sheets 同步學生代表資料"
+          git push
