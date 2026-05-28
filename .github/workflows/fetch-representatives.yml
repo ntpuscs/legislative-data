@@ -25,15 +25,14 @@ on:
   repository_dispatch:     
     types: [refresh-representatives]
 
-
 jobs:
   update-data:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: 檢出儲存庫
         uses: actions/checkout@v4
-        
+
       - name: 設定 Node.js
         uses: actions/setup-node@v4
         with:
@@ -41,20 +40,35 @@ jobs:
           
       - name: 安裝依賴套件
         run: npm install papaparse
-        
+
       - name: 讀取並處理試算表資料
         run: node scripts/fetchRepresentatives.js
-          
+
       - name: 檢查是否有變更
         id: check_changes
         run: |
           git diff --quiet data/representatives.json || echo "changed=true" >> $GITHUB_OUTPUT
-          
+
+      - name: 判斷觸發原因
+        id: reason
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "msg=每日自動執行" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            echo "msg=透過 API 觸發" >> $GITHUB_OUTPUT
+          elif [ -n "${{ github.event.inputs.reason }}" ]; then
+            echo "msg=使用者從介面手動更新，事由：「${{ github.event.inputs.reason }}」" >> $GITHUB_OUTPUT
+          else
+            echo "msg=使用者從介面手動更新" >> $GITHUB_OUTPUT
+          fi
+
       - name: 提交並推送變更
         if: steps.check_changes.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/representatives.json
-          git commit -m "data(reps): 從 Google Sheets 同步學生代表資料"
+          git commit -m "data(reps): 從 Google Sheets 同步學生代表資料
+
+          觸發原因：${{ steps.reason.outputs.msg }}"
           git push
