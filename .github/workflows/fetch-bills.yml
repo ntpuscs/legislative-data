@@ -13,15 +13,15 @@ permissions:
 on:
   schedule:
     # 每天 18:00 (UTC) 執行，對應台灣時間早上 02:00
-    - cron: '0 18 * * *'
+    - cron: "0 18 * * *"
   workflow_dispatch: # 允許從介面手動觸發
     inputs:
       reason:
-        description: '觸發原因（選填，僅供紀錄）'
+        description: "觸發原因（選填，僅供紀錄）"
         required: false
-        default: ''
+        default: ""
 
-  repository_dispatch:     # 允許透過 GitHub API 從網站後台觸發
+  repository_dispatch: # 允許透過 GitHub API 從網站後台觸發
     types: [refresh-bills]
 
 jobs:
@@ -34,13 +34,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
       - name: Setup Node.js 24
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
+          node-version: "24"
+          cache: "pnpm"
 
       - name: Install dependencies
         run: pnpm install

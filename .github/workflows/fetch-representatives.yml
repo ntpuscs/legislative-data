@@ -13,16 +13,16 @@ permissions:
 on:
   # 自動執行：每天 UTC 22:00 (UTC+8 06:00)
   schedule:
-    - cron: '0 22 * * *'
-  # 手動觸發 1：GitHub Web UI 
+    - cron: "0 22 * * *"
+  # 手動觸發 1：GitHub Web UI
   workflow_dispatch:
     inputs:
       reason:
-        description: '觸發原因（選填，僅供紀錄）'
+        description: "觸發原因（選填，僅供紀錄）"
         required: false
-        default: ''
+        default: ""
   # 手動觸發 2：GitHub API
-  repository_dispatch:     
+  repository_dispatch:
     types: [refresh-representatives]
 
 jobs:
@@ -33,14 +33,17 @@ jobs:
       - name: 檢出儲存庫
         uses: actions/checkout@v4
 
+      - name: 安裝 pnpm
+        uses: pnpm/action-setup@v4
+
       - name: 設定 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
-          cache: 'pnpm'
-          
+          node-version: "24"
+          cache: "pnpm"
+
       - name: 安裝依賴套件
-        run: npm install papaparse
+        run: pnpm install papaparse
 
       - name: 讀取並處理試算表資料
         run: node scripts/fetchRepresentatives.js
