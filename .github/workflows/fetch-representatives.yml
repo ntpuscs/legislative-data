@@ -46,7 +46,7 @@ jobs:
         run: pnpm install papaparse
 
       - name: 讀取並處理試算表資料
-        run: node scripts/fetchRepresentatives.js
+        run: node scripts/fetchRepresentatives.mjs
 
       - name: 檢查是否有變更
         id: check_changes
