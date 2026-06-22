@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-05-25T11:46:11.710Z",
+  "cachedAt": "2026-06-22T13:09:03.826Z",
   "data": [
     {
       "rowIndex": 275,
@@ -1723,6 +1723,27 @@
       "proposedAction": "敬請貴會依職權備查。",
       "attachments": [
         "https://drive.google.com/open?id=1zeZzkGjNqZSxXx-xDp6qNzH--0X8ILjE"
+      ],
+      "scheduledSession": ""
+    },
+    {
+      "rowIndex": 368,
+      "billNumber": "26屆北大峽議字第94號",
+      "term": 26,
+      "serialNumber": 94,
+      "submittedAt": "2026/6/22 下午 9:04:56",
+      "proposingEntity": "總會 秘書處",
+      "proposerName": "曾宣凱",
+      "contactName": "黃振",
+      "billType": "決算案",
+      "subject": "總會提出「總會114學年度第1期間決算案」，敬請審議。",
+      "description": "一、《總會組織職權行使法》第31條：「總會之決算，秘書處應就各項專案預算，做成結案報告，送交各校區學生議會，進行決算。」\n二、檢附決算書（附件一PDF、附件二XLSX）與報告書（附件三PDF、附件四DOCX）。",
+      "proposedAction": "大會通過後，移送臺北校區學生議會",
+      "attachments": [
+        "https://drive.google.com/open?id=1xiGFSJkZfbXIEbSfBm4NPw7szxlf6i3a",
+        "https://drive.google.com/open?id=1HqPt60CrAFeZsaAinxHNNd7CJxGlAQQw",
+        "https://drive.google.com/open?id=1KnsFOzRc0Ijbbcwdy2EEBnGyfbdxFeJX",
+        "https://drive.google.com/open?id=1fxXGeeOsBNYlJsHG237v_l6tPa5AQptO"
       ],
       "scheduledSession": ""
     }
