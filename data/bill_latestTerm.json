@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-06-24T19:41:27.765Z",
+  "cachedAt": "2026-06-25T03:30:20.280Z",
   "data": [
     {
       "rowIndex": 275,
@@ -1786,9 +1786,9 @@
     },
     {
       "rowIndex": 371,
-      "billNumber": "",
+      "billNumber": "26屆北大峽議字第97號",
       "term": 26,
-      "serialNumber": null,
+      "serialNumber": 97,
       "submittedAt": "2026/6/24 下午 5:01:24",
       "proposingEntity": "本會議員",
       "proposerName": "謝明勳",
@@ -1805,9 +1805,9 @@
     },
     {
       "rowIndex": 372,
-      "billNumber": "",
+      "billNumber": "26屆北大峽議字第98號",
       "term": 26,
-      "serialNumber": null,
+      "serialNumber": 98,
       "submittedAt": "2026/6/24 下午 5:20:29",
       "proposingEntity": "三峽校區學生會 會長副會長",
       "proposerName": "蕭至妤",
@@ -1824,9 +1824,9 @@
     },
     {
       "rowIndex": 373,
-      "billNumber": "",
+      "billNumber": "26屆北大峽議字第99號",
       "term": 26,
-      "serialNumber": null,
+      "serialNumber": 99,
       "submittedAt": "2026/6/24 下午 7:54:49",
       "proposingEntity": "本會議員",
       "proposerName": "傅冠紘",
@@ -1843,9 +1843,9 @@
     },
     {
       "rowIndex": 374,
-      "billNumber": "",
+      "billNumber": "26屆北大峽議字第100號",
       "term": 26,
-      "serialNumber": null,
+      "serialNumber": 100,
       "submittedAt": "2026/6/24 下午 8:06:18",
       "proposingEntity": "本會議員",
       "proposerName": "傅冠紘",
@@ -1857,6 +1857,25 @@
       "attachments": [
         "https://drive.google.com/open?id=1HuWpWdq9yFcDCNTQmWVVRNQ20MROAzvm",
         "https://drive.google.com/open?id=1lrDz4MP-D8WmqhdGp016eeO6A2EA6zUR"
+      ],
+      "scheduledSession": ""
+    },
+    {
+      "rowIndex": 375,
+      "billNumber": "26屆北大峽議字第101號",
+      "term": 26,
+      "serialNumber": 101,
+      "submittedAt": "2026/6/25 上午 11:26:15",
+      "proposingEntity": "本會 秘書處",
+      "proposerName": "傅冠紘",
+      "contactName": "黃振",
+      "billType": "施政報告",
+      "subject": "本會秘書處提出「三峽校區學生議會秘書處114學年度第2學期工作報告」，敬請聽取。",
+      "description": "一、依本會歷屆慣例，比照行政部門提出工作報告。\n二、附件一為PDF檔、附件二為Word檔。",
+      "proposedAction": "請大會聽取",
+      "attachments": [
+        "https://drive.google.com/open?id=1UD-Suotl355TQUObVaY_iqLxSMIJgTZw",
+        "https://drive.google.com/open?id=1YlF-xmCtC8RDAoGBzKRrsFNEh79sSKCU"
       ],
       "scheduledSession": ""
     }
