@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-06-25T03:30:20.280Z",
+  "cachedAt": "2026-07-05T19:11:27.490Z",
   "data": [
     {
       "rowIndex": 275,
@@ -1876,6 +1876,25 @@
       "attachments": [
         "https://drive.google.com/open?id=1UD-Suotl355TQUObVaY_iqLxSMIJgTZw",
         "https://drive.google.com/open?id=1YlF-xmCtC8RDAoGBzKRrsFNEh79sSKCU"
+      ],
+      "scheduledSession": ""
+    },
+    {
+      "rowIndex": 376,
+      "billNumber": "",
+      "term": 26,
+      "serialNumber": null,
+      "submittedAt": "2026/7/6 上午 1:53:50",
+      "proposingEntity": "三峽校區學生會 會長副會長",
+      "proposerName": "謝明勳",
+      "contactName": "謝明勳",
+      "billType": "預算案",
+      "subject": "有關第27屆第一期間暑期預算案，是否有當？敬請公決。",
+      "description": "一、為維持本會暑假期間會務能正常運作，並尊重貴會之職權，爰循往例提出本預算案。\n二、附件一為第27屆暑期期間預算案。\n三、附件二為本會派員參與臺學聯暑期培訓活動進修「乘浪— A133學生自治與學生權益工作坊 」之簡章。",
+      "proposedAction": "敬請貴會審議後，函請會長公告之。",
+      "attachments": [
+        "https://drive.google.com/open?id=1zDZ1D67do1jpiAlRgP1X_HDSSn0SajPP",
+        "https://drive.google.com/open?id=1y8J9Qir1TVNwMAwGgOID18xC_NAWOvbn"
       ],
       "scheduledSession": ""
     }
