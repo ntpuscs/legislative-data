@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-07-05T19:11:27.490Z",
+  "cachedAt": "2026-07-06T19:50:36.089Z",
   "data": [
     {
       "rowIndex": 275,
@@ -1881,9 +1881,9 @@
     },
     {
       "rowIndex": 376,
-      "billNumber": "",
+      "billNumber": "26屆北大峽議字第102號",
       "term": 26,
-      "serialNumber": null,
+      "serialNumber": 102,
       "submittedAt": "2026/7/6 上午 1:53:50",
       "proposingEntity": "三峽校區學生會 會長副會長",
       "proposerName": "謝明勳",
@@ -1895,6 +1895,43 @@
       "attachments": [
         "https://drive.google.com/open?id=1zDZ1D67do1jpiAlRgP1X_HDSSn0SajPP",
         "https://drive.google.com/open?id=1y8J9Qir1TVNwMAwGgOID18xC_NAWOvbn"
+      ],
+      "scheduledSession": ""
+    },
+    {
+      "rowIndex": 377,
+      "billNumber": "26屆北大峽議字第103號",
+      "term": 26,
+      "serialNumber": 103,
+      "submittedAt": "2026/7/6 上午 8:25:25",
+      "proposingEntity": "本會議長",
+      "proposerName": "傅冠紘",
+      "contactName": "傅冠紘",
+      "billType": "人事案",
+      "subject": "擬提名傅冠紘為總會代表，是否有當？敬請公決。",
+      "description": "一、依「國立臺北大學學生自治會組織章程」第十三條第二款辦理。",
+      "proposedAction": "敬請大會審議。",
+      "attachments": [
+        "https://drive.google.com/open?id=13lkga6lAuEpk12WcRj5p1wEcHY3ssGKZ"
+      ],
+      "scheduledSession": ""
+    },
+    {
+      "rowIndex": 378,
+      "billNumber": "26屆北大峽議字第104號",
+      "term": 26,
+      "serialNumber": 104,
+      "submittedAt": "2026/7/6 上午 8:35:53",
+      "proposingEntity": "本會議員",
+      "proposerName": "傅冠紘",
+      "contactName": "傅冠紘",
+      "billType": "法律案",
+      "subject": "本會議員傅冠紘擬具「國立臺北大學學生自治會經費收支保管及運用法第七條修正草案」。是否有當？請公決案。",
+      "description": "一、條文對照表如附件（附件一PDF、附件二DOCX）\n二、鑒於本會通過學生議員計畫執行款設置法，以及新設辦公室的議場部分裝修全由學生議會負責，現有之分配配額顯已不足，又學生議會除會費分配款外幾乎沒有收入來源，爰擬具本修正案，將學生議會之會費分配款提高５%，以符合未來兩會之分工及近期之需求。\n三、26屆第9次常會因人數未達門檻未能審議，爰再次提出。",
+      "proposedAction": "敬請大會審議",
+      "attachments": [
+        "https://drive.google.com/open?id=1r2EEx8E9veYwq1VXFfZA6wLcu-tYsuio",
+        "https://drive.google.com/open?id=1ruJyeqIK1ndIE1W_cRdBkmliQD9TG0YT"
       ],
       "scheduledSession": ""
     }
