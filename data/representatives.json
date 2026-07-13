@@ -549,15 +549,15 @@
     {
       "group": "碩博班代表",
       "id": "",
-      "name": "周瑜芳",
+      "name": "王冠人(測試)",
       "title": "(非基於職務)",
-      "department": "社學碩4",
+      "department": "",
       "note": ""
     },
     {
       "group": "碩博班代表",
       "id": "",
-      "name": "林欣毅",
+      "name": "簡蔚婷(測試)",
       "title": "(非基於職務)",
       "department": "",
       "note": ""
@@ -567,7 +567,7 @@
       "id": "",
       "name": "周俊良",
       "title": "學生法官",
-      "department": "公法碩1",
+      "department": "",
       "note": ""
     },
     {
@@ -581,7 +581,7 @@
     {
       "group": "臺北校區",
       "id": "",
-      "name": "成家榮",
+      "name": "吳憶祖",
       "title": "臺北校區會長",
       "department": "",
       "note": ""
@@ -589,7 +589,7 @@
     {
       "group": "臺北校區",
       "id": "",
-      "name": "傅曼昕",
+      "name": "莊向賢",
       "title": "臺北校區副會長",
       "department": "",
       "note": ""
@@ -605,7 +605,7 @@
     {
       "group": "三峽校區",
       "id": "",
-      "name": "陳昱仁",
+      "name": "謝明勳",
       "title": "三峽校區會長",
       "department": "",
       "note": ""
@@ -613,7 +613,7 @@
     {
       "group": "三峽校區",
       "id": "",
-      "name": "蕭至妤",
+      "name": "塗祉涵",
       "title": "三峽校區副會長",
       "department": "",
       "note": ""
@@ -629,7 +629,7 @@
     {
       "group": "三峽校區",
       "id": "",
-      "name": "曾宣凱",
+      "name": "施定宇",
       "title": "三峽校區學生議員（社會科學學院選舉區）",
       "department": "社工4",
       "note": ""
@@ -639,79 +639,63 @@
       "id": "",
       "name": "吳安仁",
       "title": "(非基於職務)",
-      "department": "資工3",
+      "department": "資工4",
       "note": ""
     },
     {
       "group": "三峽校區",
       "id": "",
-      "name": "方泳心",
-      "title": "",
+      "name": "吳承叡",
+      "title": "三峽校區學生議員（法律學院選舉區）",
       "department": "",
       "note": ""
     },
     {
       "group": "三峽校區",
       "id": "",
-      "name": "陳駿毅",
-      "title": "",
+      "name": "楊秉融",
+      "title": "三峽校區學生議員（社會科學學院選舉區）",
       "department": "",
       "note": ""
     },
     {
       "group": "三峽校區",
       "id": "",
-      "name": "林楷瀚",
-      "title": "",
+      "name": "羅大筌",
+      "title": "三峽校區學生議員（商學院選舉區）",
       "department": "",
       "note": ""
     },
     {
       "group": "三峽校區",
       "id": "",
-      "name": "葉湘琳",
-      "title": "",
+      "name": "陳先懷",
+      "title": "三峽校區學生議員（社會科學學院選舉區）",
       "department": "",
       "note": ""
     },
     {
       "group": "三峽校區",
       "id": "",
-      "name": "陳黎吉祥",
-      "title": "",
+      "name": "楊智英",
+      "title": "三峽校區學生議員（人文學院選舉區）",
       "department": "",
       "note": ""
     },
     {
       "group": "三峽校區",
       "id": "",
-      "name": "莊忠諺",
-      "title": "",
+      "name": "張權耀",
+      "title": "三峽校區學生議員（電機資訊學院選舉區）",
       "department": "",
       "note": ""
     },
     {
       "group": "三峽校區",
       "id": "",
-      "name": "塗祉涵",
-      "title": "",
+      "name": "王禹翔",
+      "title": "三峽校區學生議員（公共事務學院選舉區）",
       "department": "",
-      "note": ""
-    },
-    {
-      "group": "臺北校區",
-      "id": "",
-      "name": "陳毓慈",
-      "title": "",
-      "department": "",
-      "note": ""
-    },
-    {
-      "group": "三峽校區",
-      "id": "",
-      "name": "彭冠維",
-      "title": "三峽學權部長",
-      "department": "財法2",
       "note": ""
     }
   ],
@@ -719,88 +703,128 @@
     {
       "id": "1",
       "meetingName": "校務會議",
-      "representativeName": "周瑜芳"
+      "representativeName": "傅冠紘"
     },
     {
       "id": "2",
       "meetingName": "校務會議",
-      "representativeName": "林欣毅"
+      "representativeName": "吳承叡"
     },
     {
       "id": "3",
-      "meetingName": "校務會議",
-      "representativeName": "成家榮"
+      "meetingName": "教務會議",
+      "representativeName": "楊秉融"
     },
     {
       "id": "4",
-      "meetingName": "校務會議",
-      "representativeName": "傅曼昕"
+      "meetingName": "學生事務會議",
+      "representativeName": "吳承叡"
     },
     {
       "id": "5",
-      "meetingName": "校務會議",
-      "representativeName": "陳昱仁"
+      "meetingName": "圖書館委員會",
+      "representativeName": "楊秉融"
     },
     {
       "id": "6",
-      "meetingName": "校務會議",
-      "representativeName": "蕭至妤"
+      "meetingName": "總務會議",
+      "representativeName": "施定宇"
     },
     {
       "id": "7",
-      "meetingName": "學生申訴評議委員會",
-      "representativeName": "周俊良"
+      "meetingName": "衛生膳食委員會",
+      "representativeName": "楊秉融"
     },
     {
       "id": "8",
-      "meetingName": "性別平等教育委員會",
-      "representativeName": "施宗佑"
+      "meetingName": "校級課程委員會",
+      "representativeName": "吳承叡"
     },
     {
       "id": "",
-      "meetingName": "校務會議議案審查小組",
-      "representativeName": "陳昱仁"
+      "meetingName": "校級課程委員會",
+      "representativeName": "羅大筌"
     },
     {
       "id": "",
-      "meetingName": "校務發展委員會",
-      "representativeName": "陳昱仁"
+      "meetingName": "校級課程委員會",
+      "representativeName": "謝明勳"
     },
     {
       "id": "",
-      "meetingName": "校務基金管理委員會",
-      "representativeName": "曾宣凱"
+      "meetingName": "校級課程委員會",
+      "representativeName": "陳先懷"
     },
     {
       "id": "",
-      "meetingName": "校務會議",
-      "representativeName": "傅冠紘"
+      "meetingName": "校級課程委員會",
+      "representativeName": "楊智英"
     },
     {
       "id": "",
-      "meetingName": "校務會議",
-      "representativeName": "曾宣凱"
+      "meetingName": "校級課程委員會",
+      "representativeName": "張權耀"
+    },
+    {
+      "id": "",
+      "meetingName": "校級實習委員會",
+      "representativeName": "吳承叡"
+    },
+    {
+      "id": "",
+      "meetingName": "校級實習委員會",
+      "representativeName": "羅大筌"
+    },
+    {
+      "id": "",
+      "meetingName": "校級實習委員會",
+      "representativeName": "謝明勳"
+    },
+    {
+      "id": "",
+      "meetingName": "校級實習委員會",
+      "representativeName": "陳先懷"
+    },
+    {
+      "id": "",
+      "meetingName": "校級實習委員會",
+      "representativeName": "楊智英"
+    },
+    {
+      "id": "",
+      "meetingName": "校級實習委員會",
+      "representativeName": "張權耀"
     },
     {
       "id": "",
       "meetingName": "學生獎懲委員會",
-      "representativeName": "曾宣凱"
+      "representativeName": "吳承叡"
     },
     {
       "id": "",
       "meetingName": "學生獎懲委員會",
-      "representativeName": "陳昱仁"
+      "representativeName": "羅大筌"
     },
     {
       "id": "",
       "meetingName": "學生獎懲委員會",
-      "representativeName": "吳安仁"
+      "representativeName": "謝明勳"
     },
     {
       "id": "",
-      "meetingName": "程式設計相關課程審議小組",
-      "representativeName": "彭冠維"
+      "meetingName": "學生獎懲委員會",
+      "representativeName": "施定宇"
+    },
+    {
+      "id": "",
+      "meetingName": "學生獎懲委員會",
+      "representativeName": "楊智英"
+    },
+    {
+      "id": "",
+      "meetingName": "學生獎懲委員會",
+      "representativeName": "張權耀"
     }
   ],
-  "lastUpdated": "2026-01-20T22:02:26.293Z"
+  "lastUpdated": "2026-07-13T07:41:28.590Z"
 }
