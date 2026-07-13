@@ -32,7 +32,7 @@ jobs:
     
     steps:
       - name: 1. 取得現行程式碼
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           # 設定 fetch depth 為0以便在稍後 git pull
           fetch-depth: 0
@@ -43,10 +43,10 @@ jobs:
           python-version: '3.10'
 
       - name: 3. 安裝 pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
 
       - name: 4. 設定 Node.js 環境
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '24'
           cache: 'pnpm'
