@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-07-09T19:39:13.714Z",
+  "cachedAt": "2026-07-31T19:18:44.839Z",
   "data": [
     {
       "rowIndex": 376,
@@ -132,6 +132,43 @@
         "https://docs.google.com/document/d/1yJwZXvwLHn24ddY83qksnVQkh1jm2PGN/edit?usp=drive_link&ouid=111956381691113417844&rtpof=true&sd=true"
       ],
       "scheduledSession": "27屆第1次臨時會"
+    },
+    {
+      "rowIndex": 383,
+      "billNumber": "",
+      "term": 27,
+      "serialNumber": null,
+      "submittedAt": "2026/7/31 上午 10:41:23",
+      "proposingEntity": "三峽校區學生會 會長副會長",
+      "proposerName": "謝明勳",
+      "contactName": "謝明勳",
+      "billType": "預算案",
+      "subject": "有關本會提出第27屆第一期間特別預算案，敬請貴會審議。",
+      "description": "一、為因應三峽校區學生自治會會辦將於115-1期初進行搬遷工作，惟目前會辦新址因閒置較久且整體空間及格局上尚須重新規劃和裝潢，以符合自治會各單位之使用需求，並打造一個舒適的辦公環境，使會務能夠順利推行，因此將委由設計公司進行設計及裝潢工作。\n二、根據「國立臺北大學學生自治會三峽校區新設學生自治會聯合辦公空間設置特別條例」第三條，本會得依法編列特別預算供裝潢使用，爰提出本特別預算案，敬請貴會審議。\n三、附件一為第27屆第一期間特別預算案。",
+      "proposedAction": "敬請貴會審議後，函請會長公告之。",
+      "attachments": [
+        "https://drive.google.com/open?id=1KdcFjnp7c-d8FP_cUvxZierr8DyfoaDT",
+        "https://drive.google.com/open?id=11wUYF-zvfZDgf9wHAQSNA03TfxppO8La"
+      ],
+      "scheduledSession": ""
+    },
+    {
+      "rowIndex": 384,
+      "billNumber": "",
+      "term": 27,
+      "serialNumber": null,
+      "submittedAt": "2026/7/31 上午 10:51:20",
+      "proposingEntity": "三峽校區學生會 會長副會長",
+      "proposerName": "謝明勳",
+      "contactName": "謝明勳",
+      "billType": "人事案",
+      "subject": "有關提名周瑜芳擔任行政會議及學務會議學生代表一案，提請貴會同意。",
+      "description": "一、依《國立臺北大學學生自治會三峽校區各級會議學生代表推派規則 》第二條第四項規定辦理。\n二、附件為被提名人人事簡歷表。",
+      "proposedAction": "敬請貴會依職權審議。",
+      "attachments": [
+        "https://drive.google.com/open?id=1KACpRf39SXxUFWXkhUFsAPWzAtzFC9sM"
+      ],
+      "scheduledSession": ""
     }
   ]
 }
