@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-08-01T19:02:58.577Z",
+  "cachedAt": "2026-08-03T19:25:25.374Z",
   "data": [
     {
       "rowIndex": 376,
@@ -220,7 +220,9 @@
       "subject": "有關提名甲斐繪里為學生獎懲委員會學生代表一案，提請貴會同意。",
       "description": "一、依據《國立臺北大學學生自治會三峽校區各級會議學生代表推派規則》第二條之一第四項規定辦理。\n二、提名甲斐繪里擔任永續創新國際學院學生代表。\n三、附件為被提名人人事簡歷表。",
       "proposedAction": "敬請貴會依職權審議。",
-      "attachments": [],
+      "attachments": [
+        "https://drive.google.com/file/d/1QkeyAdBoGDmcZNpcbvgRFE3aN5FuOTC4/view?usp=drive_link"
+      ],
       "scheduledSession": "27屆第2次臨時會"
     },
     {
@@ -233,13 +235,31 @@
       "proposerName": "謝明勳",
       "contactName": "謝明勳",
       "billType": "人事案",
-      "subject": "有關本會學術部部長被提名人陳奕熏、財務部副部長被提名人黃筠筑人事案，敬請貴會審議。",
-      "description": "一、依《國立臺北大學學生自治會三峽校區學生會組織辦法》第三條第三項規定辦理。\n二、附件為學術部部長被提名人陳奕熏、財務部副部長被提名人黃筠筑人事簡歷表。",
+      "subject": "有關本會財務部副部長被提名人黃筠筑人事案，敬請貴會審議。",
+      "description": "一、依《國立臺北大學學生自治會三峽校區學生會組織辦法》第三條第三項規定辦理。\n二、附件為財務部副部長被提名人黃筠筑人事簡歷表。",
       "proposedAction": "敬請貴會審議同意後，函請會長任命之。",
       "attachments": [
         "https://drive.google.com/open?id=1JCPoB6m24tJHeDOZvHtPoHNnoaoLqz_I"
       ],
       "scheduledSession": "27屆第2次臨時會"
+    },
+    {
+      "rowIndex": 389,
+      "billNumber": "",
+      "term": 27,
+      "serialNumber": null,
+      "submittedAt": "2026/8/3 下午 11:18:29",
+      "proposingEntity": "三峽校區學生會 會長副會長",
+      "proposerName": "謝明勳",
+      "contactName": "謝明勳",
+      "billType": "人事案",
+      "subject": "有關提名吳承叡為總會代表一案，提請貴會同意。",
+      "description": "一、依《國立臺北大學學生自治會組織章程》第十三條第三款規定辦理。\n二、附件為被提名人人事簡歷表。",
+      "proposedAction": "敬請貴會依職權審議。",
+      "attachments": [
+        "https://drive.google.com/open?id=1gjzesM-acsNbGrdujn-z1aN1oNi9GpnO"
+      ],
+      "scheduledSession": ""
     }
   ]
 }
