@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-08-04T19:25:54.099Z",
+  "cachedAt": "2026-08-05T19:24:00.996Z",
   "data": [
     {
       "rowIndex": 376,
@@ -260,6 +260,24 @@
         "https://drive.google.com/open?id=1gjzesM-acsNbGrdujn-z1aN1oNi9GpnO"
       ],
       "scheduledSession": "27屆第2次臨時會"
+    },
+    {
+      "rowIndex": 390,
+      "billNumber": "27屆北大峽議字第15號",
+      "term": 27,
+      "serialNumber": 15,
+      "submittedAt": "2026/8/5 下午 6:29:47",
+      "proposingEntity": "本會議員",
+      "proposerName": "傅冠紘",
+      "contactName": "傅冠紘",
+      "billType": "一般決議",
+      "subject": "建請大會做成決議，支持校務會議設置辦法研修小組中學生自治會代表所提出之修法方案。",
+      "description": "鑑於校務會議設置辦法研修小組正在研修校務會議設置辦法，本會代表擬於會議中自提修法版本，以落實校園治理愈與民主運作，本會身為由三峽校區學生賦予職責的代議士組成之合議制機關，建請大會作成決議支持校務會議設置辦法研修小組中學生自治會代表所提出之修法方案，以為學生自治會代表堅實後盾。（決議文草稿如附件一）",
+      "proposedAction": "敬請大會審議。",
+      "attachments": [
+        "https://drive.google.com/open?id=1r3LDKNwd5BjLc2KAOtVZX-tV0rmg7XMK"
+      ],
+      "scheduledSession": ""
     }
   ]
 }
