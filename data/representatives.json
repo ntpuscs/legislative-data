@@ -597,7 +597,23 @@
     {
       "group": "臺北校區",
       "id": "",
-      "name": "黃尚秸",
+      "name": "王俐婷",
+      "title": "臺北校區議長",
+      "department": "",
+      "note": ""
+    },
+    {
+      "group": "臺北校區",
+      "id": "",
+      "name": "丁育綸",
+      "title": "臺北校區副議長",
+      "department": "",
+      "note": ""
+    },
+    {
+      "group": "臺北校區",
+      "id": "",
+      "name": "何承翰",
       "title": "臺北校區學生議員",
       "department": "",
       "note": ""
@@ -824,7 +840,72 @@
       "id": "",
       "meetingName": "學生獎懲委員會",
       "representativeName": "張權耀"
+    },
+    {
+      "id": "",
+      "meetingName": "校務會議",
+      "representativeName": "吳憶祖"
+    },
+    {
+      "id": "",
+      "meetingName": "校務會議",
+      "representativeName": "丁育綸"
+    },
+    {
+      "id": "",
+      "meetingName": "行政會議",
+      "representativeName": "吳憶祖"
+    },
+    {
+      "id": "",
+      "meetingName": "學生事務會議",
+      "representativeName": "莊向賢"
+    },
+    {
+      "id": "",
+      "meetingName": "學生事務會議",
+      "representativeName": "何承翰"
+    },
+    {
+      "id": "",
+      "meetingName": "總務會議",
+      "representativeName": "莊向賢"
+    },
+    {
+      "id": "",
+      "meetingName": "教務會議",
+      "representativeName": "莊向賢"
+    },
+    {
+      "id": "",
+      "meetingName": "教務會議",
+      "representativeName": "王俐婷"
+    },
+    {
+      "id": "",
+      "meetingName": "學生輔導工作暨校園自我傷害三級預防委員會",
+      "representativeName": "莊向賢"
+    },
+    {
+      "id": "",
+      "meetingName": "校園霸凌防制委員會",
+      "representativeName": "莊向賢"
+    },
+    {
+      "id": "",
+      "meetingName": "空間分配及管理委員會",
+      "representativeName": "吳憶祖"
+    },
+    {
+      "id": "",
+      "meetingName": "進修暨推廣部部務會議",
+      "representativeName": "吳憶祖"
+    },
+    {
+      "id": "",
+      "meetingName": "進修暨推廣部部務會議",
+      "representativeName": "莊向賢"
     }
   ],
-  "lastUpdated": "2026-07-13T07:41:28.590Z"
+  "lastUpdated": "2026-08-07T01:27:36.776Z"
 }
