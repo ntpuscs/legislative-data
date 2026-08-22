@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-08-05T19:24:00.996Z",
+  "cachedAt": "2026-08-22T18:22:54.156Z",
   "data": [
     {
       "rowIndex": 376,
@@ -276,6 +276,24 @@
       "proposedAction": "敬請大會審議。",
       "attachments": [
         "https://drive.google.com/open?id=1r3LDKNwd5BjLc2KAOtVZX-tV0rmg7XMK"
+      ],
+      "scheduledSession": ""
+    },
+    {
+      "rowIndex": 391,
+      "billNumber": "",
+      "term": 27,
+      "serialNumber": null,
+      "submittedAt": "2026/8/22 下午 11:54:03",
+      "proposingEntity": "三峽校區學生會 會長副會長",
+      "proposerName": "謝明勳",
+      "contactName": "謝明勳",
+      "billType": "一般決議",
+      "subject": "因應新設辦公室裝潢施工時程，依據《國立臺北大學學生自治會三峽校區新設聯合辦公空間設置特別條例》之第六條規定，本條例及其特別預算施行期間屆滿，得經三峽校區學生議會同意延長之，故本會敬請貴會做成決議同意之。",
+      "description": "因應裝潢施工配合廠商尚未進場施作，加上整體工程所需經費較為龐大，如原定學生自治會招牌設計及架子裝設，還有辦公室後續若需施作新牆面，需將案子送交新北市政府審核，此流程初步確認會需要約六萬塊費用，且必須將施工工期可能出現的延宕狀況一併考慮進去。綜上所述，本會《國立臺北大學學生自治會三峽校區新設聯合辦公空間設置特別條例》之第六條規定，敬請貴會做成同意延長本條例及其特別預算施行期間之決議。（相關法規如附件一所示，敬請貴會議員們參閱）",
+      "proposedAction": "敬請貴會審議。",
+      "attachments": [
+        "https://drive.google.com/open?id=1p_FmZQYBPjMravH1aMzJGxc_hUjKUWEU"
       ],
       "scheduledSession": ""
     }
