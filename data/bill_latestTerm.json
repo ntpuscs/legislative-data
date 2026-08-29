@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-08-24T18:33:55.251Z",
+  "cachedAt": "2026-08-29T01:25:17.162Z",
   "data": [
     {
       "rowIndex": 376,
@@ -295,7 +295,26 @@
       "attachments": [
         "https://drive.google.com/open?id=1p_FmZQYBPjMravH1aMzJGxc_hUjKUWEU"
       ],
-      "scheduledSession": "27屆第3次臨時會"
+      "scheduledSession": "27屆第1次常會"
+    },
+    {
+      "rowIndex": 392,
+      "billNumber": "27屆北大峽議字第17號",
+      "term": 27,
+      "serialNumber": 17,
+      "submittedAt": "2026/8/28 下午 9:26:21",
+      "proposingEntity": "三峽校區學生會 會長副會長",
+      "proposerName": "謝明勳",
+      "contactName": "謝明勳",
+      "billType": "人事案",
+      "subject": "有關本會新聞部部長被提名人高婕寧、新聞部副部長被提名人陳蘇瑂二人人事案，敬請貴會審議。",
+      "description": "一、依《國立臺北大學學生自治會三峽校區學生會組織辦法》第三條第三項規定辦理。\n二、附件一為新聞部部長高被提名人婕寧人事簡歷表；附件二為新聞部副部長陳被提名人蘇瑂人事簡歷表。",
+      "proposedAction": "敬請貴會審議同意後，函請會長任命之。",
+      "attachments": [
+        "https://drive.google.com/open?id=1QsRSg8QIUk6eyuyurU6PwSs6gECnHdnQ",
+        "https://drive.google.com/open?id=1YvxGNyE2HkZOq3PSLjg_BVcll9e25xBM"
+      ],
+      "scheduledSession": "27屆第1次常會"
     }
   ]
 }
