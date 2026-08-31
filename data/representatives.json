@@ -713,6 +713,22 @@
       "title": "三峽校區學生議員（公共事務學院選舉區）",
       "department": "",
       "note": ""
+    },
+    {
+      "group": "三峽校區",
+      "id": "",
+      "name": "林欣毅",
+      "title": "學生代表",
+      "department": "",
+      "note": ""
+    },
+    {
+      "group": "三峽校區",
+      "id": "",
+      "name": "周瑜芳",
+      "title": "學生代表",
+      "department": "",
+      "note": ""
     }
   ],
   "assignments": [
@@ -728,184 +744,194 @@
     },
     {
       "id": "3",
-      "meetingName": "教務會議",
-      "representativeName": "楊秉融"
+      "meetingName": "校務會議",
+      "representativeName": "林欣毅"
     },
     {
       "id": "4",
-      "meetingName": "學生事務會議",
-      "representativeName": "吳承叡"
+      "meetingName": "校務會議",
+      "representativeName": "周瑜芳"
     },
     {
       "id": "5",
-      "meetingName": "圖書館委員會",
+      "meetingName": "教務會議",
       "representativeName": "楊秉融"
     },
     {
       "id": "6",
-      "meetingName": "總務會議",
-      "representativeName": "施定宇"
+      "meetingName": "學生事務會議",
+      "representativeName": "吳承叡"
     },
     {
       "id": "7",
-      "meetingName": "衛生膳食委員會",
+      "meetingName": "圖書館委員會",
       "representativeName": "楊秉融"
     },
     {
       "id": "8",
+      "meetingName": "總務會議",
+      "representativeName": "施定宇"
+    },
+    {
+      "id": "9",
+      "meetingName": "衛生膳食委員會",
+      "representativeName": "楊秉融"
+    },
+    {
+      "id": "10",
       "meetingName": "校級課程委員會",
       "representativeName": "吳承叡"
     },
     {
-      "id": "",
+      "id": "11",
       "meetingName": "校級課程委員會",
       "representativeName": "羅大筌"
     },
     {
-      "id": "",
+      "id": "12",
       "meetingName": "校級課程委員會",
       "representativeName": "謝明勳"
     },
     {
-      "id": "",
+      "id": "13",
       "meetingName": "校級課程委員會",
       "representativeName": "陳先懷"
     },
     {
-      "id": "",
+      "id": "14",
       "meetingName": "校級課程委員會",
       "representativeName": "楊智英"
     },
     {
-      "id": "",
+      "id": "15",
       "meetingName": "校級課程委員會",
       "representativeName": "張權耀"
     },
     {
-      "id": "",
+      "id": "16",
       "meetingName": "校級實習委員會",
       "representativeName": "吳承叡"
     },
     {
-      "id": "",
+      "id": "17",
       "meetingName": "校級實習委員會",
       "representativeName": "羅大筌"
     },
     {
-      "id": "",
+      "id": "18",
       "meetingName": "校級實習委員會",
       "representativeName": "謝明勳"
     },
     {
-      "id": "",
+      "id": "19",
       "meetingName": "校級實習委員會",
       "representativeName": "陳先懷"
     },
     {
-      "id": "",
+      "id": "20",
       "meetingName": "校級實習委員會",
       "representativeName": "楊智英"
     },
     {
-      "id": "",
+      "id": "21",
       "meetingName": "校級實習委員會",
       "representativeName": "張權耀"
     },
     {
-      "id": "",
+      "id": "22",
       "meetingName": "學生獎懲委員會",
       "representativeName": "吳承叡"
     },
     {
-      "id": "",
+      "id": "23",
       "meetingName": "學生獎懲委員會",
       "representativeName": "羅大筌"
     },
     {
-      "id": "",
+      "id": "24",
       "meetingName": "學生獎懲委員會",
       "representativeName": "謝明勳"
     },
     {
-      "id": "",
+      "id": "25",
       "meetingName": "學生獎懲委員會",
       "representativeName": "施定宇"
     },
     {
-      "id": "",
+      "id": "26",
       "meetingName": "學生獎懲委員會",
       "representativeName": "楊智英"
     },
     {
-      "id": "",
+      "id": "27",
       "meetingName": "學生獎懲委員會",
       "representativeName": "張權耀"
     },
     {
-      "id": "",
+      "id": "29",
       "meetingName": "校務會議",
       "representativeName": "吳憶祖"
     },
     {
-      "id": "",
+      "id": "30",
       "meetingName": "校務會議",
       "representativeName": "丁育綸"
     },
     {
-      "id": "",
+      "id": "31",
       "meetingName": "行政會議",
       "representativeName": "吳憶祖"
     },
     {
-      "id": "",
+      "id": "32",
       "meetingName": "學生事務會議",
       "representativeName": "莊向賢"
     },
     {
-      "id": "",
+      "id": "33",
       "meetingName": "學生事務會議",
       "representativeName": "何承翰"
     },
     {
-      "id": "",
+      "id": "34",
       "meetingName": "總務會議",
       "representativeName": "莊向賢"
     },
     {
-      "id": "",
+      "id": "35",
       "meetingName": "教務會議",
       "representativeName": "莊向賢"
     },
     {
-      "id": "",
+      "id": "36",
       "meetingName": "教務會議",
       "representativeName": "王俐婷"
     },
     {
-      "id": "",
+      "id": "37",
       "meetingName": "學生輔導工作暨校園自我傷害三級預防委員會",
       "representativeName": "莊向賢"
     },
     {
-      "id": "",
+      "id": "38",
       "meetingName": "校園霸凌防制委員會",
       "representativeName": "莊向賢"
     },
     {
-      "id": "",
+      "id": "39",
       "meetingName": "空間分配及管理委員會",
       "representativeName": "吳憶祖"
     },
     {
-      "id": "",
+      "id": "40",
       "meetingName": "進修暨推廣部部務會議",
       "representativeName": "吳憶祖"
     },
     {
-      "id": "",
+      "id": "41",
       "meetingName": "進修暨推廣部部務會議",
       "representativeName": "莊向賢"
     }
   ],
-  "lastUpdated": "2026-08-31T00:01:48.487Z"
+  "lastUpdated": "2026-08-31T08:01:54.274Z"
 }
