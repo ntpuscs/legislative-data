@@ -583,7 +583,7 @@
       "id": "",
       "name": "吳憶祖",
       "title": "臺北校區會長",
-      "department": "",
+      "department": "進修法律2",
       "note": ""
     },
     {
@@ -591,7 +591,7 @@
       "id": "",
       "name": "莊向賢",
       "title": "臺北校區副會長",
-      "department": "",
+      "department": "進修社工3",
       "note": ""
     },
     {
@@ -599,7 +599,7 @@
       "id": "",
       "name": "王俐婷",
       "title": "臺北校區議長",
-      "department": "",
+      "department": "進修不動4",
       "note": ""
     },
     {
@@ -607,7 +607,7 @@
       "id": "",
       "name": "丁育綸",
       "title": "臺北校區副議長",
-      "department": "",
+      "department": "進修社工2",
       "note": ""
     },
     {
@@ -615,7 +615,7 @@
       "id": "",
       "name": "何承翰",
       "title": "臺北校區學生議員",
-      "department": "",
+      "department": "進修社工3",
       "note": ""
     },
     {
@@ -907,5 +907,5 @@
       "representativeName": "莊向賢"
     }
   ],
-  "lastUpdated": "2026-08-07T01:27:36.776Z"
+  "lastUpdated": "2026-08-31T00:01:48.487Z"
 }
