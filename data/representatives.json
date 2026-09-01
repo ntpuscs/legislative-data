@@ -858,6 +858,11 @@
       "representativeName": "張權耀"
     },
     {
+      "id": "26",
+      "meetingName": "校務會議",
+      "representativeName": "謝明勳"
+    },
+    {
       "id": "27",
       "meetingName": "校務會議",
       "representativeName": "吳憶祖"
@@ -931,7 +936,17 @@
       "id": "41",
       "meetingName": "校務會議",
       "representativeName": "周瑜芳"
+    },
+    {
+      "id": "42",
+      "meetingName": "圖書館委員會",
+      "representativeName": "塗祉涵"
+    },
+    {
+      "id": "43",
+      "meetingName": "校務會議",
+      "representativeName": "塗祉涵"
     }
   ],
-  "lastUpdated": "2026-08-31T08:21:37.444Z"
+  "lastUpdated": "2026-09-01T00:54:15.456Z"
 }
