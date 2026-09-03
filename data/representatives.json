@@ -230,7 +230,7 @@
       "link": "non-public",
       "department": "生輔組",
       "departmentLink": "",
-      "totalSeats": "",
+      "totalSeats": "7",
       "regulationArticle": "",
       "seatDistribution": "",
       "sanxiaRegulation": "",
@@ -246,7 +246,7 @@
       "link": "https://fms.ntpu.edu.tw/km/24586",
       "department": "課務組",
       "departmentLink": "https://new.ntpu.edu.tw/oaa/organizations#tab3",
-      "totalSeats": "",
+      "totalSeats": "7",
       "regulationArticle": "",
       "seatDistribution": "",
       "sanxiaRegulation": "",
@@ -262,7 +262,7 @@
       "link": "https://fms.ntpu.edu.tw/km/24585",
       "department": "課務組",
       "departmentLink": "https://new.ntpu.edu.tw/oaa/organizations#tab3",
-      "totalSeats": "",
+      "totalSeats": "7",
       "regulationArticle": "",
       "seatDistribution": "",
       "sanxiaRegulation": "",
@@ -324,7 +324,7 @@
       "id": "",
       "name": "通識教育中心課程委員會",
       "link": "",
-      "department": "",
+      "department": "通識中心",
       "departmentLink": "",
       "totalSeats": "",
       "regulationArticle": "",
@@ -340,7 +340,7 @@
       "id": "",
       "name": "通識教育委員會",
       "link": "https://fms.ntpu.edu.tw/km/24785",
-      "department": "",
+      "department": "通識中心",
       "departmentLink": "",
       "totalSeats": "",
       "regulationArticle": "",
@@ -372,7 +372,7 @@
       "id": "",
       "name": "職涯發展中心實習委員會",
       "link": "",
-      "department": "",
+      "department": "職涯中心",
       "departmentLink": "",
       "totalSeats": "",
       "regulationArticle": "",
@@ -388,7 +388,7 @@
       "id": "",
       "name": "語言中心課程委員會",
       "link": "",
-      "department": "",
+      "department": "語言中心",
       "departmentLink": "",
       "totalSeats": "",
       "regulationArticle": "",
@@ -516,7 +516,7 @@
       "id": "",
       "name": "亞德客有美公益活動經費補助審查委員會",
       "link": "",
-      "department": "",
+      "department": "課外組",
       "departmentLink": "",
       "totalSeats": "",
       "regulationArticle": "",
@@ -534,7 +534,7 @@
       "link": "https://fms.ntpu.edu.tw/km/24587",
       "department": "課務組",
       "departmentLink": "https://new.ntpu.edu.tw/oaa/organizations#tab3",
-      "totalSeats": "",
+      "totalSeats": "1",
       "regulationArticle": "",
       "seatDistribution": "",
       "sanxiaRegulation": "",
@@ -547,27 +547,11 @@
   ],
   "representatives": [
     {
-      "group": "碩博班代表",
-      "id": "",
-      "name": "王冠人(測試)",
-      "title": "(非基於職務)",
-      "department": "",
-      "note": ""
-    },
-    {
-      "group": "碩博班代表",
-      "id": "",
-      "name": "簡蔚婷(測試)",
-      "title": "(非基於職務)",
-      "department": "",
-      "note": ""
-    },
-    {
       "group": "學生法官",
       "id": "",
       "name": "周俊良",
       "title": "學生法官",
-      "department": "",
+      "department": "公法碩二",
       "note": ""
     },
     {
@@ -654,7 +638,7 @@
       "group": "三峽校區",
       "id": "",
       "name": "吳安仁",
-      "title": "(非基於職務)",
+      "title": "非基於會內職務出任（電機資訊學院）",
       "department": "資工4",
       "note": ""
     },
@@ -718,23 +702,23 @@
       "group": "三峽校區",
       "id": "",
       "name": "林欣毅",
-      "title": "學生代表",
-      "department": "",
+      "title": "非基於會內職務出任（碩博生）",
+      "department": "行政碩",
       "note": ""
     },
     {
       "group": "三峽校區",
       "id": "",
       "name": "周瑜芳",
-      "title": "學生代表",
-      "department": "",
+      "title": "非基於會內職務出任（碩博生）",
+      "department": "社學碩",
       "note": ""
     },
     {
       "group": "三峽校區",
       "id": "",
       "name": "甲斐繪里",
-      "title": "學生代表（永續創新國際學院）",
+      "title": "非基於會內職務出任（永續創新國際學院）",
       "department": "",
       "note": ""
     }
@@ -976,5 +960,5 @@
       "representativeName": "甲斐繪里"
     }
   ],
-  "lastUpdated": "2026-09-03T03:31:09.671Z"
+  "lastUpdated": "2026-09-03T23:42:09.273Z"
 }
