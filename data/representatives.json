@@ -729,6 +729,14 @@
       "title": "學生代表",
       "department": "",
       "note": ""
+    },
+    {
+      "group": "三峽校區",
+      "id": "",
+      "name": "甲斐繪里",
+      "title": "學生代表（永續創新國際學院）",
+      "department": "",
+      "note": ""
     }
   ],
   "assignments": [
@@ -946,7 +954,27 @@
       "id": "43",
       "meetingName": "校務會議",
       "representativeName": "塗祉涵"
+    },
+    {
+      "id": "44",
+      "meetingName": "教務會議",
+      "representativeName": "林欣毅"
+    },
+    {
+      "id": "45",
+      "meetingName": "行政會議",
+      "representativeName": "周瑜芳"
+    },
+    {
+      "id": "46",
+      "meetingName": "學生事務會議",
+      "representativeName": "周瑜芳"
+    },
+    {
+      "id": "47",
+      "meetingName": "學生獎懲委員會",
+      "representativeName": "甲斐繪里"
     }
   ],
-  "lastUpdated": "2026-09-01T00:54:15.456Z"
+  "lastUpdated": "2026-09-03T03:31:09.671Z"
 }
