@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-08-29T01:25:17.162Z",
+  "cachedAt": "2026-09-05T19:52:18.667Z",
   "data": [
     {
       "rowIndex": 376,
@@ -313,6 +313,25 @@
       "attachments": [
         "https://drive.google.com/open?id=1QsRSg8QIUk6eyuyurU6PwSs6gECnHdnQ",
         "https://drive.google.com/open?id=1YvxGNyE2HkZOq3PSLjg_BVcll9e25xBM"
+      ],
+      "scheduledSession": "27屆第1次常會"
+    },
+    {
+      "rowIndex": 393,
+      "billNumber": "27屆北大峽議字第18號",
+      "term": 27,
+      "serialNumber": 18,
+      "submittedAt": "2026/9/5 下午 8:44:12",
+      "proposingEntity": "三峽校區學生會 財務部",
+      "proposerName": "謝明勳",
+      "contactName": "賴郁雯",
+      "billType": "預算案",
+      "subject": "有關三峽校區學生會115學年度第1期間總預算案，敬請貴會審議。",
+      "description": "一、依《預算暨決算辦法》規定辦理。\n二、115學年度第1期間總預算書如附件（附件一為pdf檔、附件二為xlsx檔）",
+      "proposedAction": "提送貴會審議通過後，由會長公布之。",
+      "attachments": [
+        "https://drive.google.com/open?id=1jycKDJ9FhaITPs3Q7KFLhiDFKss6Wl0g",
+        "https://drive.google.com/open?id=1GlEjHimH7KIPgSAy14lE4wQtPnphB86h"
       ],
       "scheduledSession": "27屆第1次常會"
     }
