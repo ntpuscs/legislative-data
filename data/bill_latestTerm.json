@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-09-05T19:52:18.667Z",
+  "cachedAt": "2026-09-07T21:03:27.025Z",
   "data": [
     {
       "rowIndex": 376,
@@ -334,6 +334,26 @@
         "https://drive.google.com/open?id=1GlEjHimH7KIPgSAy14lE4wQtPnphB86h"
       ],
       "scheduledSession": "27屆第1次常會"
+    },
+    {
+      "rowIndex": 394,
+      "billNumber": "27屆北大峽議字第19號",
+      "term": 27,
+      "serialNumber": 19,
+      "submittedAt": "2026/9/7 下午 9:06:00",
+      "proposingEntity": "學生法院 書記處",
+      "proposerName": "周俊良",
+      "contactName": "俞建佑",
+      "billType": "法律案",
+      "subject": "提出跨校區自治事務處理條例部分條文修正案",
+      "description": "附件一(PDF)、附件二(WORD)為修正條文對照表，附件三(PDF)為原法規全文條文",
+      "proposedAction": "大會通過後，移送臺北校區學生議會審議",
+      "attachments": [
+        "https://drive.google.com/open?id=1R0DieeEbU1tLSp-hxAwKZ9DJlg5t6b-5",
+        "https://drive.google.com/open?id=1VPkct3VN9Cr4NHoukuX-3sroVGQhqcDe",
+        "https://drive.google.com/open?id=1TRFBMcnHkvQP_ClSNlcEPg2Vl4zramVR"
+      ],
+      "scheduledSession": ""
     }
   ]
 }
