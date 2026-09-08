@@ -1,5 +1,5 @@
 {
-  "cachedAt": "2026-09-07T21:03:27.025Z",
+  "cachedAt": "2026-09-08T20:39:03.536Z",
   "data": [
     {
       "rowIndex": 376,
@@ -327,13 +327,12 @@
       "contactName": "賴郁雯",
       "billType": "預算案",
       "subject": "有關三峽校區學生會115學年度第1期間總預算案，敬請貴會審議。",
-      "description": "一、依《預算暨決算辦法》規定辦理。\n二、115學年度第1期間總預算書如附件（附件一為pdf檔、附件二為xlsx檔）",
+      "description": "一、依《預算暨決算辦法》規定辦理。\n二、115學年度第1期間總預算書如附件（附件一為xlsx檔）",
       "proposedAction": "提送貴會審議通過後，由會長公布之。",
       "attachments": [
-        "https://drive.google.com/open?id=1jycKDJ9FhaITPs3Q7KFLhiDFKss6Wl0g",
-        "https://drive.google.com/open?id=1GlEjHimH7KIPgSAy14lE4wQtPnphB86h"
+        "https://docs.google.com/spreadsheets/d/1YyduX-_Y8dbeImbsk11s7XtYzvQX2t3V/edit?usp=drive_link&ouid=111956381691113417844&rtpof=true&sd=true"
       ],
-      "scheduledSession": "27屆第1次常會"
+      "scheduledSession": "26屆第1次財務委員會；27屆第1次常會"
     },
     {
       "rowIndex": 394,
@@ -353,7 +352,7 @@
         "https://drive.google.com/open?id=1VPkct3VN9Cr4NHoukuX-3sroVGQhqcDe",
         "https://drive.google.com/open?id=1TRFBMcnHkvQP_ClSNlcEPg2Vl4zramVR"
       ],
-      "scheduledSession": ""
+      "scheduledSession": "27屆第1次常會"
     }
   ]
 }
